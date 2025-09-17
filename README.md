@@ -230,3 +230,30 @@ Render / Railway / Heroku – Backend
 * Content moderation tools
 * View platform usage analytics and reports
 
+## Features
+### 1. User Authentication (Signup/Login)
+Secure user authentication lets guests and hosts sign up, log in, and manage their profiles. This feature ensures a personalized experience and protects sensitive information.
+
+### 2. Property Listings
+Hosts can create and manage property listings with details such as price, photos, amenities, and availability. This serves as the foundation of the platform, providing travelers with options to choose from.
+
+### 3. Search and Filters
+Users can search for properties by location, date, price, and amenities. This improves usability by helping travelers quickly narrow down results to find the perfect stay.
+
+### 4. Booking System
+Guests can reserve properties for specific dates and make payments securely. This replicates Airbnb’s core functionality, ensuring smooth interactions between hosts and guests.
+
+### 5. Reviews and Ratings
+Guests can rate their stay and leave reviews, while hosts receive valuable feedback. This feature fosters trust and transparency, making the platform more reliable.
+
+### 6. Messaging System
+A built-in chat system allows communication between hosts and guests. This makes it easy to clarify booking details, ask questions, and enhance the overall user experience.
+
+### 7. Payment Integration
+Integration with a secure payment gateway allows guests to pay for bookings online. It streamlines the process and makes the platform viable for real-world transactions.
+
+### 8. Wishlist/Favorites
+Users can save properties they like to revisit later. This adds convenience and helps guests compare different options before finalizing a booking.
+
+### 9. Admin Dashboard
+An admin panel enables administrators to manage users, properties, and transactions. It helps maintain platform security, prevents misuse, and ensures smooth operation.
