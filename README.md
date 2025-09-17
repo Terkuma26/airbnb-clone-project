@@ -1,4 +1,4 @@
-# airbnb-clone-project
+# Airbnb-Clone-Project
 The Airbnb Clone is a full-stack web application that replicates the core features of Airbnb, a platform that allows users to book stays and list properties for rent. The project helps developers understand and implement real-world functionalities such as authentication, CRUD operations, payment integration, and search filtering.
 # Project Goals
 **User Features**
