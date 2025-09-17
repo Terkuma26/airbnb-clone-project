@@ -186,3 +186,47 @@ Render / Railway / Heroku – Backend
 **Booking ⟶ Payment**: One-to-one
 **Booking ⟶ Property/User**: Many-to-one
 **Review ⟶ Property/User**: Many-to-one
+
+## Main Features
+**👤 User Management**
+* User registration and login with secure authentication
+* Profile creation and editing
+* Role-based access: Guest, Host, Admin
+* OAuth login support (optional)
+
+**🏠 Property Management**
+* Hosts can create, update, and delete property listings
+* Upload property images and details (title, price, location, etc.)
+* Set availability and nightly rates
+* Manage owned listings from dashboard
+
+**📅 Booking System**
+* Book available properties for specific dates
+* View and manage upcoming/past bookings
+* Prevent double-bookings
+* Booking status updates (confirmed, cancelled, etc.)
+
+**💳 Payment Integration (Advanced)**
+* Secure payments via Stripe or another gateway
+* Store and display payment history
+* Handle refunds and cancellations
+
+**⭐ Reviews & Ratings**
+* Guests can leave reviews and ratings after stays
+* View reviews on listing pages
+* Optional host responses to reviews
+
+**🔍 Search & Filter**
+* Search listings by location, date, price, and more
+* Apply filters like guest count, amenities, etc.
+* Map-based property search (Google Maps or Mapbox)
+
+**📱 Responsive Design**
+* Mobile-first, responsive layout
+* Fully functional on all screen sizes and devices
+
+**⚙️ Admin Dashboard (Optional)**
+* Manage users, listings, bookings, and reviews
+* Content moderation tools
+* View platform usage analytics and reports
+
