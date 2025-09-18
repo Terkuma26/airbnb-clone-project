@@ -257,3 +257,44 @@ Users can save properties they like to revisit later. This adds convenience and 
 
 ### 9. Admin Dashboard
 An admin panel enables administrators to manage users, properties, and transactions. It helps maintain platform security, prevents misuse, and ensures smooth operation.
+
+## API Security.
+## Security Measures
+### 1. Authentication
+Authentication ensures that only verified users can log in and access the platform. Secure password hashing, email verification, and token-based sessions (e.g., JWT) protect user accounts from unauthorized access.
+
+### 2. Authorization
+Role-based access control (RBAC) is used to define permissions for guests, hosts, and administrators. This ensures users only access features relevant to their role, preventing unauthorized actions.
+
+### 3. Rate Limiting
+Rate limiting prevents brute-force attacks and abuse of the API by restricting the number of requests from a single user or IP within a specific time frame. This helps maintain performance and stability.
+
+### 4. Data Encryption
+All communication between the client and server is encrypted using HTTPS/SSL. Sensitive data, such as passwords and payment details, is also encrypted at rest to ensure confidentiality.
+
+### 5. Input Validation
+User inputs are validated and sanitized to guard against common security threats like SQL injection and cross-site scripting (XSS). This ensures the platform safely processes external data.
+
+### 6. Secure Payment Processing
+Payments are handled by trusted third-party gateways (e.g., Stripe, PayPal). This keeps financial information secure and ensures compliance with industry standards like PCI-DSS.
+
+## Importance of Security
+### 1. Protecting User Data
+Users share sensitive information such as names, emails, and addresses. Strong security ensures this data remains private, building trust and preventing identity theft.
+
+### 2. Securing Payments
+Financial transactions involve credit card and banking details. Secure payment handling protects users from fraud and ensures compliance with industry standards like PCI-DSS.
+
+### 3. Authentication
+Authentication safeguards accounts so only verified users can access them. This prevents unauthorized logins and protects user profiles, bookings, and communication.
+
+### 4. Authorization
+Authorization ensures that guests, hosts, and admins only access the features relevant to their roles. This prevents misuse of privileged functionality and protects system integrity.
+
+### 5. Preventing Abuse (Rate Limiting)
+Rate limiting stops malicious actors from overwhelming the system with repeated requests. It helps prevent brute-force attacks and keeps the platform stable for all users.
+
+### 6. Data Integrity
+Encryption and input validation protect the platform from tampering and malicious injections. This ensures that stored and transmitted data cannot be altered or exploited.
+
+
