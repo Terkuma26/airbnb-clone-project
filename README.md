@@ -297,4 +297,19 @@ Rate limiting stops malicious actors from overwhelming the system with repeated 
 ### 6. Data Integrity
 Encryption and input validation protect the platform from tampering and malicious injections. This ensures that stored and transmitted data cannot be altered or exploited.
 
+## CI/CD Pipeline. 
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the process of building, testing, and deploying code.  
+They ensure that new features or fixes are quickly integrated, tested for errors, and deployed without manual intervention.  
+This improves development speed, reduces bugs in production, and keeps the project reliable and up to date.
+
+## CI/CD Tools
+Several tools can be used to implement CI/CD pipelines in this project:
+- **GitHub Actions** – Automates workflows such as testing, building, and deployment directly from the GitHub repository.  
+- **Docker** – Provides containerization, ensuring the application runs consistently across different environments.  
+- **Jenkins** – An open-source automation server that can manage complex CI/CD workflows.  
+- **GitLab CI/CD** – Integrated pipelines with GitLab repositories for seamless version control and deployment.  
+- **Travis CI** – A CI/CD service that automates testing and deployment for projects hosted on GitHub.  
+- **Kubernetes** – Used for orchestrating Docker containers in production, enabling scalable and reliable deployments.  
+- **Heroku / AWS / Azure / GCP** – Cloud platforms that can host and manage automated deployments.
+
 
